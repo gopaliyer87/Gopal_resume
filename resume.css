@@ -4,6 +4,11 @@
     width: 100%;
 }
 
-.date {
-    text-align: right;
+.title {
+    flex: 1;
 }
+
+.dates {
+    flex: 1;
+    text-align: right;
+}-
