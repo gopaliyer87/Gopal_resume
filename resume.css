@@ -1,14 +1,13 @@
 .job-info {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto; /* One column takes up remaining space, the other auto sizes to content */
     width: 100%;
 }
 
 .title {
-    flex: 1;
+    text-align: left;
 }
 
 .dates {
-    flex: 1;
     text-align: right;
 }
