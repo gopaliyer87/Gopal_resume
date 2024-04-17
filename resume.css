@@ -13,7 +13,13 @@
 }
 
 .describe {
-    font-size: 14px;
+    font-size: 13px;
     font-family:'Arial';
-    
+    border: 20px solid blue;
+}
+
+.describe2 {
+    font-size: 11px;
+    font-family:'Arial';
+    border: 20px solid blue dotted;
 }
